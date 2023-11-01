@@ -1,0 +1,90 @@
+/* Global styles */
+body {
+    background-color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    background-color: #6DAFFE;
+    padding: 35px 15px;
+}
+
+.photo {
+    border-radius: 1000px;
+}
+
+/* Section styles */
+.section {
+    border: 0.3rem solid #EDF6FF;
+    padding: 35px 15px;
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    color: white;
+    font-size: 2.3em;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1em;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+    margin: 15px 0 5px 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #222222;
+    font-size: 1.15em;
+    font-weight: 700;
+    text-align: center;
+    margin: 5px 0 10px 0;
+}
+
+h3 {
+    color: #222222;
+    font-size: 1.4em;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: white;
+    font-size: 1.15em;
+    font-weight: 600;
+    text-shadow: 1px 1px 4px #151C64;
+    text-align: center;
+}
+
+/* Project tile styles */
+.project-tile {
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.75);
+    background-blend-mode: overlay;
+    min-height: 150px;
+    margin: 12px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px darkgrey;
+}
+
+/* Button styles */
+.btn-primary {
+    color: white;
+    background: #151C64;
+    border-radius: 50px;
+    border: none;
+    margin: 20px 0px 20px 0px;
+    padding: 10px 16px 10px 16px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+/* Link styles */
+a {
+    color: #4fbdd2;
+    text-decoration: underline;
+}
