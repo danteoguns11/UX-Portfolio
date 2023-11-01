@@ -58,11 +58,21 @@ h4 {
 }
 
 /* Project tile styles */
-.project-tile {
+.portfolio-tile {
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.75);
     background-blend-mode: overlay;
     min-height: 150px;
+    margin: 12px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px darkgrey;
+}
+
+.project-tile {
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.75);
+    background-blend-mode: overlay;
+    min-height: 300px;
     margin: 12px;
     border-radius: 15px;
     box-shadow: 0 2px 5px darkgrey;
