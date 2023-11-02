@@ -98,3 +98,10 @@ a {
     color: #4fbdd2;
     text-decoration: underline;
 }
+
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 16px;
+}
