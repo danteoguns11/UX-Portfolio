@@ -50,19 +50,100 @@
         <div class="row justify-content-center" style="align-items: center; flex-direction: column;">
             <h1>Design Improvements</h1>
 
-            <h2>Sainsbury's Kiosk</h2>
+            <h3>Sainsbury's Kiosk</h3>
         </div>
     </header>
 
-    <div class="my-4 text-center">
-        <h4>Business Research</h4>
-        <p>steps taken in this process</p>
+    <div class="my-4 px-5">
 
-        <h4>User Journey</h4>
-        <p>flowchart of the current system showing a specific task</p>
+        <h5>Business Research</h4>
+            <p>In an increasingly digitised world, the user experience (UX) at self-checkout kiosks in supermarkets
+                plays a
+                critical
+                role in customer satisfaction and operational efficiency. As technology evolves and user expectations
+                change, it is
+                essential to continually improve the design of these kiosks.</p>
+            <br>
+            <h6 class="font-weight-bold">Problem Statement:</h6>
+            <p>The current self-checkout kiosk design may not fully align with evolving user preferences, leading to
+                occasional
+                usability issues, user frustration, and potential loss of business. I aimed to address these concerns by
+                proposing a new design.</p>
+            <br>
+            <h5>User Journey</h5>
 
-        <h4>Proposed Design</h4>
-        <p>screenshots of new designs</p>
+            <p>This flowchart highlights the pivotal steps in the user journey when engaging with a self-checkout
+                system.
+            </p>
+
+            <img src="images/sainsburys-user-journey.png" width="100%">
+
+            <div class="d-flex flex-column justify-content-center px-3">
+                <p>I designed this flowchart to illustrate the initial user interface, offering three interaction
+                    pathways:
+                <ul>
+                    <li>Scan item's barcode</li>
+                    <li>Manually enter barcode</li>
+                    <li>Ask for assistance</li>
+                </ul>
+                <p>These choices initiate a series of user interactions aimed at barcode verification and product
+                    validation. The system
+                    subsequently assesses whether the item has been successfully placed in the bagging area before
+                    incorporating it into the
+                    user's basket and recalculating the total basket value.
+                </p>
+            </div>
+            <br>
+            <h5>Proposed Design</h5>
+            <p>Here are static prototypes showcasing the initial design state, depicting screens with zero items in the
+                cart
+                and a total cost of £0.
+            </p>
+
+            <div>
+                <img src="images/Sainsburys Kiosk/Landing screen.png" width="30%" />
+
+                <img src="images/Sainsburys Kiosk/Select category screen.png" width="30%" />
+
+                <img src="images/Sainsburys Kiosk/Bakery screen.png" width="30%" />
+
+                <img src="images/Sainsburys Kiosk/Enter barcode typed screen.png" width="30%" />
+
+                <img src="images/Sainsburys Kiosk/Item found screen.png" width="30%" />
+
+                <img src="images/Sainsburys Kiosk/Scanned items screen.png" width="30%" />
+
+                <img src="images/Sainsburys Kiosk/Basket screen.png" width="30%" />
+
+                <img src="images/Sainsburys Kiosk/Checkout screen.png" width="30%" />
+
+                <img src="images/Sainsburys Kiosk/Thank you screen.png" width="30%" />
+            </div>
+
+            <div class="row justify-content-around mt-2" style="align-items: center;">
+                <div class="col-10 col-md-5">
+                    <p>
+                        Behind this static representation, the design incorporates dynamic variables and
+                        conditionals that
+                        dynamically update the cart totals, as demonstrated in pictures 6, 7, and 8, triggered by user
+                        interactions.
+                    </p>
+                </div>
+
+                <div class="col-10 col-md-5">
+                    <p>
+                        Additionally, a conditional feature is implemented that automatically adds the selected product
+                        to
+                        both
+                        shopping
+                        baskets, as seen in pictures 7 and 8, when the item quantity is increased, while simultaneously
+                        removing
+                        the
+                        "No item in
+                        your basket" placeholder.
+                    </p>
+                </div>
+            </div>
 
     </div>
 
