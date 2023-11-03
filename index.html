@@ -13,7 +13,8 @@
 
     <!-- Section for CSS -->
     <!-- Reference to Bootstrap stylesheet -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- Reference to our stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
@@ -31,26 +32,29 @@
 <body>
 
     <header class="justify-content-center">
-        <div class="row justify-content-around" style="align-items: center;">
-            <a href="index.html">
-                <h6 style="color: #b9732f;">Home</h6>
-            </a>
-            <a href="projects.html">
-                <h6 style="color: #000000;">Projects</h6>
-            </a>
 
-            <a href="skills.html">
-                <h6 style="color: #000000;">Skills</h6>
-            </a>
-            <a href="contact.html">
-                <h6 style="color: #000000;">Contact</h6>
-            </a>
+        <div class="container text-center mb-2">
+            <div class="row row-cols-4">
+                <div class="col"><a href="index.html">
+                        <h6 style="color: #edf6ff;">Home</h6>
+                    </a></div>
+                <div class="col"><a href="projects.html">
+                        <h6 style="color: #000000;">Projects</h6>
+                    </a></div>
+                <div class="col"><a href="skills.html">
+                        <h6 style="color: #000000;">Skills</h6>
+                    </a></div>
+                <div class="col"><a href="contact.html">
+                        <h6 style="color: #000000;">Contact</h6>
+                    </a></div>
+            </div>
         </div>
 
-        <div class="row justify-content-center" style="align-items: center;">
-            <img class="photo" src="images/Daniel Profile Pic.jpeg" width="75px">
 
-            <div style="margin-left: 50px;">
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="p-2 flex-shrink-1" style="width: 100px;"><img class="photo" src="images/Daniel Profile Pic.jpeg"
+                    width="100%"></div>
+            <div class="py-2 px-4 w-10">
                 <h1>Daniel Ogunsanya</h1>
 
                 <h2>Aspiring UX & UI Designer from London, England, UK</h2>
@@ -64,31 +68,31 @@
         <div class="row justify-content-center">
 
             <div class="portfolio-tile col-10 col-md-3 d-flex align-items-center justify-content-center"
-                style="background-image: url(images/sainsburys-kiosk.png);">
-
-                <a href="sainsburys-kiosk.html">
-                    <h4>Design Improvement: Sainsbury's Kiosk</h4>
+                style="background-image: url(images/bbc-sports/project.png);">
+                <a href="bbc-sports.html">
+                    <h4>Usability & A/B Testing: BBC Sports</h4>
                 </a>
             </div>
 
             <div class="portfolio-tile col-10 col-md-3 d-flex align-items-center justify-content-center"
-                style="background-image: url(images/car-rental.png);">
-                <a href="car-rental.html">
-                    <h4>Car Rental Redesign</h4>
+                style="background-image: url(images/sainsburys-kiosk/project.png);">
+
+                <a href="sainsburys-kiosk.html">
+                    <h4>Kiosk Design: Sainsbury's</h4>
                 </a>
             </div>
 
             <div class="portfolio-tile col-10 col-md-3 d-flex align-items-center justify-content-center"
                 style="background-image: url(images/ux-conf-dashboard.png);">
                 <a href="ux-conf.html">
-                    <h4>UX Conf Dashboard</h4>
+                    <h4>Dashboard Design: The UX Conf</h4>
                 </a>
             </div>
 
-            <div class="portfolio-tile col-10 col-md-3 d-flex align-items-center justify-content-center"
+            <div class="portfolio-tile col-10 col-md-9 d-flex align-items-center justify-content-center"
                 style="background-image: url(images/project-design-improvements-ab-test.png);">
                 <a href="projects.html">
-                    <h4>See More Projects</h4>
+                    <h4>See All Projects</h4>
                 </a>
             </div>
 
@@ -127,7 +131,9 @@
             Download Portfolio
         </a>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

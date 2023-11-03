@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head section where we define page metadata and reference CSS style -->
+
+<head>
+
+    <!-- Page title displayed in browser titlebar and search engines -->
+    <title>Design Improvements: BBC Sports</title>
+
+    <!-- Below makes our page mobile-friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Section for CSS -->
+    <!-- Reference to Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Reference to our stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Reference to Google Fonts stylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<!-- Body section where we add content -->
+
+<body>
+
+    <header class="justify-content-center">
+
+        <div class="container text-center mb-2">
+            <div class="row row-cols-4">
+                <div class="col"><a href="index.html">
+                        <h6 style="color: #000000;">Home</h6>
+                    </a></div>
+                <div class="col"><a href="projects.html">
+                        <h6 style="color: #edf6ff;">Projects</h6>
+                    </a></div>
+                <div class="col"><a href="skills.html">
+                        <h6 style="color: #000000;">Skills</h6>
+                    </a></div>
+                <div class="col"><a href="contact.html">
+                        <h6 style="color: #000000;">Contact</h6>
+                    </a></div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center" style="align-items: center; flex-direction: column;">
+            <h1>Usability & A/B Testing</h1>
+
+            <h3>BBC Sports</h3>
+        </div>
+    </header>
+
+    <div class="my-4 px-5">
+        <h5>Business Research</h5>
+        <p>The BBC Sports app is a widely used platform for sports enthusiasts, providing comprehensive coverage of
+            various sports,
+            including football. To further enhance the user experience and cater to football fans, we propose a research
+            initiative
+            aimed at redesigning the football section of the app. The primary objective is to reduce the amount of
+            scrolling by
+            introducing separate accordions for football match news, match statistics, and player ratings, ultimately
+            streamlining
+            the user journey.</p>
+        <br>
+        <h6 class="font-weight-bold">Problem Statement:</h6>
+        <p>The existing design of the football section in the BBC Sports app can be cumbersome for users, especially
+            those seeking
+            match-specific information such as news updates, match stats, and player ratings. The excessive scrolling
+            and content
+            overload can lead to user frustration and impact overall satisfaction.</p>
+        <br>
+
+        <h5>Existing vs Proposed Design</h5>
+
+        <div class="row justify-content-around mt-2" style="align-items: center;">
+            <div class="col-6 col-md-6">
+                <div class="d-flex justify-content-center">
+                    <div class="justify-content-center border rounded" style="width: 50%;">
+                        <div id="existingDesign" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/bbc-sports/Current Design.png" class="d-block w-100 mx-auto"
+                                        alt="existing Match screen 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/bbc-sports/Current Design 2.png" class="d-block w-100 mx-auto"
+                                        alt="existing Match screen 2">
+                                </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#existingDesign"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#existingDesign"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <p class="text-center">Existing</p>
+            </div>
+
+            <div class="col-6 col-md-6">
+                <div class="d-flex justify-content-center">
+                    <div class="justify-content-center border rounded" style="width: 50%;">
+                        <div id="newDesign" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/bbc-sports/Default.png" class="d-block w-100 mx-auto"
+                                        alt="Redesigned Match screen">
+                                    <!-- <div class="carousel-caption d-inline d-md-inline">
+                                            <p>Match screen</p>
+                                        </div> -->
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/bbc-sports/Match News.png" class="d-block w-100 mx-auto"
+                                        alt="Match News accordion open">
+                                    <!-- <div class="carousel-caption d-inline d-md-inline">
+                                            <p>Match News accordion open</p>
+                                        </div> -->
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/bbc-sports/Player Ratings - Celtic.png"
+                                        class="d-block w-100 mx-auto" alt="Player Ratings - Celtic accordion open">
+                                    <!-- <div class="carousel-caption d-inline d-md-inline">
+                                            <p>Player Ratings - Celtic accordion open</p>
+                                        </div> -->
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="images/bbc-sports/Player Ratings - Atl Madrid.png"
+                                        class="d-block w-100 mx-auto" alt="Player Ratings - Atl Madrid accordion open">
+                                    <!-- <div class="carousel-caption d-inline d-md-inline">
+                                            <p>Player Ratings - Atl Madrid accordion open</p>
+                                        </div> -->
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/bbc-sports/Match Stats.png" class="d-block w-100 mx-auto"
+                                        alt="Match Stats accordion open">
+                                    <!-- <div class="carousel-caption d-inline d-md-inline">
+                                            <p>Match Stats accordion open</p>
+                                        </div> -->
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/bbc-sports/Line-ups.png" class="d-block w-100 mx-auto"
+                                        alt="Line-ups accordion open">
+                                    <!-- <div class="carousel-caption d-inline d-md-inline">
+                                            <p>Line-ups accordion open</p>
+                                        </div> -->
+                                </div>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#newDesign"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#newDesign"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <p class="text-center">Proposed</p>
+            </div>
+        </div>
+        <br>
+
+        <h5>Design Review</h5>
+
+        <div class="row justify-content-around mt-2" style="align-items:flex-start;">
+            <div class="col-12 col-md-6">
+                <h6 style="text-decoration: underline; text-align: center;">What Works:</h6>
+                <ol>
+                    <li><span style="font-weight: bold;">Content Depth:</span> The BBC Sports app provides an
+                        impressive
+                        depth of content for football fans. It
+                        covers a wide range of
+                        tournaments, leagues, and events, offering news, live scores, and in-depth analysis. The
+                        app
+                        is
+                        a
+                        comprehensive resource
+                        for football enthusiasts.</li>
+                    <li><span style="font-weight: bold;">Accessibility:</span> The app is accessible, with a
+                        user-friendly interface that allows users to easily
+                        navigate through
+                        various sections. The hierarchy is well-structured, making it simple to find the desired
+                        information, match schedules,
+                        and results.</li>
+                    <li><span style="font-weight: bold;">Live Updates:</span> Live score updates,
+                        minute-by-minute
+                        commentary, and live match statistics provide
+                        an
+                        engaging and
+                        real-time experience, keeping users informed during matches.</li>
+                    <li><span style="font-weight: bold;">Rich Media:</span> The integration of images, videos,
+                        and
+                        highlights adds an engaging multimedia aspect
+                        to
+                        the football
+                        coverage, enhancing the overall user experience.</li>
+                </ol>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <h6 style="text-decoration: underline; text-align: center;">What Could Be Improved:</h6>
+                <ol>
+                    <li><span style="font-weight: bold;">Scrolling Overload:</span> One of the main issues in
+                        the
+                        existing design is the excessive scrolling
+                        required
+                        to access various
+                        elements within the football section. Users often have to scroll through a long list of
+                        content
+                        to
+                        find the specific
+                        information they seek. This can lead to user frustration and a less-than-optimal
+                        experience.
+                    </li>
+                    <li><span style="font-weight: bold;">Accordion Design:</span> To address the scrolling
+                        issue,
+                        introducing separate accordions for football
+                        match
+                        news, match
+                        statistics, and player ratings is a promising solution. This would significantly reduce
+                        scrolling
+                        and make it easier for
+                        users to access specific content without having to scroll through lengthy lists.</li>
+                    <li><span style="font-weight: bold;">User Feedback:</span> Implementing a feedback mechanism
+                        within
+                        the football section would be
+                        beneficial. Users should have
+                        a way to report issues, provide suggestions, and give feedback on content quality,
+                        enhancing
+                        the
+                        app's responsiveness to
+                        user needs.</li>
+                </ol>
+            </div>
+        </div>
+        <br>
+        <h5>Usability Testing</h5>
+        <p>I organised a user testing session where participants interacted with a replicated prototype of the original
+            BBC Sports app. I used this session to gather feedback on their experiences and pain points within the
+            football
+            section of the app.</p>
+        <p>Below are the questions I asked during the session and the feedback received from each participants</p>
+
+        <div class="row justify-content-around mt-2" style="align-items: center;">
+            <div class="d-flex justify-content-center col-12 col-md-6">
+                <img src="images/bbc-sports/Usability Testing.png" style="width: 100%;">
+            </div>
+
+            <div class="d-flex justify-content-center col-12 col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YeXaa9Opuds?si=YkBjILpu05DBtc-_"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <br>
+
+        <h5>A/B Testing</h5>
+        <p>The A/B test for the BBC Sports app focused on evaluating two designs for the football section of the app.
+            The existing
+            design, which required users to scroll through a long list of content, was compared to the proposed design
+            that
+            introduced separate accordions for match news, match statistics, and player ratings. The goal was to assess
+            user
+            preferences and performance in the context of improved content accessibility.</p>
+        <br>
+
+        <h6>Results:</h6>
+
+        <div class="row justify-content-around mt-2" style="align-items:flex-start;">
+            <div class="col-12 col-md-6">
+                <ol>
+                    <li><span style="font-weight: bold;">User Satisfaction:</span> 100% of participants found the
+                        proposed
+                        design with accordions to be more user-friendly and efficient, expressing
+                        satisfaction with the reduced scrolling.
+                    </li>
+                    <li><span style="font-weight: bold;">Reduced Scrolling:</span> Participants consistently reported a
+                        significant reduction in the amount of scrolling required to access desired content
+                        in the football section.</li>
+                    <li><span style="font-weight: bold;">Content Accessibility:</span> 100% of users stated that they
+                        found
+                        it easier to access specific information, including match news, statistics, and
+                        player ratings, within the accordions.</li>
+                </ol>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <ol start="4">
+                    <li><span style="font-weight: bold;">Task Completion:</span> Users were able to complete typical
+                        tasks,
+                        such as checking live match scores and accessing player ratings, more quickly
+                        and with fewer steps in the proposed design.
+                    </li>
+                    <li><span style="font-weight: bold;">User Feedback:</span> Feedback received during the test
+                        indicated
+                        that the proposed design was favored for its streamlined user experience and
+                        intuitive navigation.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <img class="border" src="images/bbc-sports/Testing Results.png" style="width: 75%;">
+        </div>
+        <p class="text-center">The full results can be viewed here: <a
+                href="https://app.lyssna.com/tests/88382ff3237e/results/2c6417fb668c">A/B Testing for BBC Sports</a>
+        </p>
+    </div>
+
+    <footer class="section">
+        <h3>Get in touch</h3>
+        <p>Call Me: <a href="tel:+447950985060">+44 7950 985060</a></p>
+        <p>Email Me: <a href="mailto:danteoguns@gmail.com">danteoguns@gmail.com</a></p>
+        <p>View Projects:
+            <img src="https://1000logos.net/wp-content/uploads/2023/01/Behance-logo.png" height="16px">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Dribbble_Text_Logo_Script.svg/2560px-Dribbble_Text_Logo_Script.svg.png"
+                height="16px">
+        </p>
+        <a href="porfolio.pdf" class="btn-primary">
+            Download Portfolio
+        </a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
