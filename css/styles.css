@@ -63,6 +63,11 @@ h5 {
     font-weight: 700;
 }
 
+h6 {
+    font-size: 1.15rem;
+    font-weight: 650;
+}
+
 /* Project tile styles */
 .portfolio-tile {
     background-size: cover;
