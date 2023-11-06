@@ -10,6 +10,12 @@ header {
     padding: 35px 15px;
 }
 
+footer {
+    border: 0.3rem solid #EDF6FF;
+    padding: 35px 15px;
+    text-align: center;
+}
+
 .photo {
     border-radius: 1000px;
 }
@@ -18,7 +24,6 @@ header {
 .section {
     border: 0.3rem solid #EDF6FF;
     padding: 35px 15px;
-    text-align: center;
 }
 
 /* Heading styles */

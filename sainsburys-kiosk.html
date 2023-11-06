@@ -59,162 +59,169 @@
 
     <div class="my-4 px-5">
 
-        <h5>Business Research</h4>
-            <p>In an increasingly digitised world, the user experience (UX) at self-checkout kiosks in supermarkets
-                plays a
-                critical
-                role in customer satisfaction and operational efficiency. As technology evolves and user expectations
-                change, it is
-                essential to continually improve the design of these kiosks.</p>
-            <br>
-            <h6 class="font-weight-bold">Problem Statement:</h6>
-            <p>The current self-checkout kiosk design may not fully align with evolving user preferences, leading to
-                occasional
-                usability issues, user frustration, and potential loss of business. I aimed to address these concerns by
-                proposing a new design.</p>
-            <br>
-            <h5>User Journey</h5>
+        <h5>Business Research</h5>
+        <p>In an increasingly digitised world, the user experience (UX) at self-checkout kiosks in supermarkets
+            plays a
+            critical
+            role in customer satisfaction and operational efficiency. As technology evolves and user expectations
+            change, it is
+            essential to continually improve the design of these kiosks.</p>
+        <br>
+        <h6 class="font-weight-bold">Problem Statement:</h6>
+        <p>The current self-checkout kiosk design may not fully align with evolving user preferences, leading to
+            occasional
+            usability issues, user frustration, and potential loss of business. I aimed to address these concerns by
+            proposing a new design.</p>
+        <br>
+        <h5>User Journey</h5>
 
-            <p>This flowchart highlights the pivotal steps in the user journey when engaging with a self-checkout
-                system.
+        <p>This flowchart highlights the pivotal steps in the user journey when engaging with a self-checkout
+            system.
+        </p>
+
+        <img src="images/sainsburys-kiosk/sainsburys-user-journey.png" width="100%">
+
+        <div class="d-flex flex-column justify-content-center px-3">
+            <p>I designed this flowchart to illustrate the initial user interface, offering three interaction
+                pathways:
+            <ul>
+                <li>Scan item's barcode</li>
+                <li>Manually enter barcode</li>
+                <li>Ask for assistance</li>
+            </ul>
+            <p>These choices initiate a series of user interactions aimed at barcode verification and product
+                validation. The system
+                subsequently assesses whether the item has been successfully placed in the bagging area before
+                incorporating it into the
+                user's basket and recalculating the total basket value.
             </p>
+        </div>
+        <br>
+        <h5>Proposed Design</h5>
+        <p>Here are static prototypes showcasing the initial design state, depicting screens with zero items in the
+            basket
+            and a total cost of £0.
+        </p>
 
-            <img src="images/sainsburys-kiosk/sainsburys-user-journey.png" width="100%">
-
-            <div class="d-flex flex-column justify-content-center px-3">
-                <p>I designed this flowchart to illustrate the initial user interface, offering three interaction
-                    pathways:
-                <ul>
-                    <li>Scan item's barcode</li>
-                    <li>Manually enter barcode</li>
-                    <li>Ask for assistance</li>
-                </ul>
-                <p>These choices initiate a series of user interactions aimed at barcode verification and product
-                    validation. The system
-                    subsequently assesses whether the item has been successfully placed in the bagging area before
-                    incorporating it into the
-                    user's basket and recalculating the total basket value.
-                </p>
-            </div>
-            <br>
-            <h5>Proposed Design</h5>
-            <p>Here are static prototypes showcasing the initial design state, depicting screens with zero items in the
-                basket
-                and a total cost of £0.
-            </p>
-
-            <div class="d-flex justify-content-center">
-                <div class="justify-content-center border rounded" style="width: 75%;">
-                    <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="images/sainsburys-kiosk/Landing screen.png" class="d-block w-100 mx-auto"
-                                    alt="Landing screen">
-                                <div class="carousel-caption d-inline d-md-inline">
-                                    <p>Landing screen</p>
-                                </div>
+        <div class="d-flex justify-content-center">
+            <div class="justify-content-center border rounded" style="width: 75%;">
+                <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/sainsburys-kiosk/Landing screen.png" class="d-block w-100 mx-auto"
+                                alt="Landing screen">
+                            <div class="carousel-caption d-inline d-md-inline">
+                                <p>Landing screen</p>
                             </div>
-                            <div class="carousel-item">
-                                <img src="images/sainsburys-kiosk/Select category screen.png"
-                                    class="d-block w-100 mx-auto" alt="Select category screen">
-                                <div class="carousel-caption d-inline d-md-inline">
-                                    <p style="color: #000000;">Select category screen</p>
-                                </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/sainsburys-kiosk/Select category screen.png" class="d-block w-100 mx-auto"
+                                alt="Select category screen">
+                            <div class="carousel-caption d-inline d-md-inline">
+                                <p style="color: #000000;">Select category screen</p>
                             </div>
-                            <div class="carousel-item">
-                                <img src="images/sainsburys-kiosk/Bakery screen.png" class="d-block w-100 mx-auto"
-                                    alt="Bakery screen">
-                                <div class="carousel-caption d-inline d-md-inline">
-                                    <p style="color: #000000;">Bakery screen</p>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <img src="images/sainsburys-kiosk/Enter barcode typed screen.png"
-                                    class="d-block w-100 mx-auto" alt="Enter barcode screen">
-                                <div class="carousel-caption d-inline d-md-inline">
-                                    <p style="color: #000000;">Enter barcode screen</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/sainsburys-kiosk/Item found screen.png" class="d-block w-100 mx-auto"
-                                    alt="Item found screen">
-                                <div class="carousel-caption d-inline d-md-inline">
-                                    <p style="color: #F06C00;">Item found screen</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/sainsburys-kiosk/Scanned items screen.png"
-                                    class="d-block w-100 mx-auto" alt="Scanned items screen">
-                                <div class="carousel-caption d-inline d-md-inline">
-                                    <p style="color: #000000;">Scanned items screen</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/sainsburys-kiosk/Basket screen.png" class="d-block w-100 mx-auto"
-                                    alt="Basket screen">
-                                <div class="carousel-caption d-inline d-md-inline">
-                                    <p style="color: #000000;">Basket screen</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/sainsburys-kiosk/Checkout screen.png" class="d-block w-100 mx-auto"
-                                    alt="Checkout screen">
-                                <div class="carousel-caption d-inline d-md-inline">
-                                    <p style="color: #000000;">Checkout screen</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/sainsburys-kiosk/Thank you screen.png" class="d-block w-100 mx-auto"
-                                    alt="Thank you screen">
-                                <div class="carousel-caption d-inline d-md-inline">
-                                    <p>Thank you screen</p>
-                                </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/sainsburys-kiosk/Bakery screen.png" class="d-block w-100 mx-auto"
+                                alt="Bakery screen">
+                            <div class="carousel-caption d-inline d-md-inline">
+                                <p style="color: #000000;">Bakery screen</p>
                             </div>
                         </div>
 
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+                        <div class="carousel-item">
+                            <img src="images/sainsburys-kiosk/Enter barcode typed screen.png"
+                                class="d-block w-100 mx-auto" alt="Enter barcode screen">
+                            <div class="carousel-caption d-inline d-md-inline">
+                                <p style="color: #000000;">Enter barcode screen</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/sainsburys-kiosk/Item found screen.png" class="d-block w-100 mx-auto"
+                                alt="Item found screen">
+                            <div class="carousel-caption d-inline d-md-inline">
+                                <p style="color: #F06C00;">Item found screen</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/sainsburys-kiosk/Scanned items screen.png" class="d-block w-100 mx-auto"
+                                alt="Scanned items screen">
+                            <div class="carousel-caption d-inline d-md-inline">
+                                <p style="color: #000000;">Scanned items screen</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/sainsburys-kiosk/Basket screen.png" class="d-block w-100 mx-auto"
+                                alt="Basket screen">
+                            <div class="carousel-caption d-inline d-md-inline">
+                                <p style="color: #000000;">Basket screen</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/sainsburys-kiosk/Checkout screen.png" class="d-block w-100 mx-auto"
+                                alt="Checkout screen">
+                            <div class="carousel-caption d-inline d-md-inline">
+                                <p style="color: #000000;">Checkout screen</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/sainsburys-kiosk/Thank you screen.png" class="d-block w-100 mx-auto"
+                                alt="Thank you screen">
+                            <div class="carousel-caption d-inline d-md-inline">
+                                <p>Thank you screen</p>
+                            </div>
+                        </div>
                     </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
+        </div>
 
-            <div class="row justify-content-around mt-2" style="align-items: center;">
-                <div class="col-12 col-md-6">
-                    <p>
-                        Behind this static representation, the design incorporates variables and
-                        conditionals that
-                        dynamically update the basket totals triggered by user
-                        interactions.
-                    </p>
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <p>
-                        Additionally, a conditional feature is implemented that automatically adds the selected product
-                        to
-                        both
-                        shopping
-                        baskets when the item quantity is increased, while simultaneously
-                        removing
-                        the
-                        "No item in
-                        your basket" placeholder.
-                    </p>
-                </div>
+        <div class="row justify-content-around mt-2" style="align-items: center;">
+            <div class="col-12 col-md-6">
+                <p>
+                    Behind this static representation, the design incorporates variables and
+                    conditionals that
+                    dynamically update the basket totals triggered by user
+                    interactions.
+                </p>
             </div>
 
+            <div class="col-12 col-md-6">
+                <p>
+                    Additionally, a conditional feature is implemented that automatically adds the selected product
+                    to
+                    both
+                    shopping
+                    baskets when the item quantity is increased, while simultaneously
+                    removing
+                    the
+                    "No item in
+                    your basket" placeholder.
+                </p>
+            </div>
+        </div>
+        <h5>Figma Prototype</h5>
+        <br>
+
+        <div class="d-flex justify-content-center">
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F0dqbRZIUyVdfoHr3cp3HIQ%2FThe-School-of-UX-Cohort-1-Project-Kiosk-exercise%3Fpage-id%3D1405%253A135%26type%3Ddesign%26node-id%3D2299-13317%26viewport%3D268%252C139%252C0.05%26t%3Du6RCqoJc58eh5hQC-1%26scaling%3Dcontain%26starting-point-node-id%3D2299%253A13317%26mode%3Ddesign"
+                allowfullscreen></iframe>
+        </div>
     </div>
 
-    <footer class="section">
+    <footer>
         <h3>Get in touch</h3>
         <p>Call Me: <a href="tel:+447950985060">+44 7950 985060</a></p>
         <p>Email Me: <a href="mailto:danteoguns@gmail.com">danteoguns@gmail.com</a></p>
