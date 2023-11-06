@@ -9,6 +9,7 @@ header {
     /* background-color: #6DAFFE; */
     padding: 35px 15px;
     background-image: url(../images/background-slated.svg);
+    background-repeat: no-repeat;
 }
 
 footer {
