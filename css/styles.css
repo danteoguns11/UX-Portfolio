@@ -86,6 +86,16 @@ h6 {
     box-shadow: 0 2px 5px darkgrey;
 }
 
+.portfolio-tile:hover {
+    transform: scale(1.05);
+    transition: all 0.2s;
+}
+
+.portfolio-tile:focus {
+    transform: scale(1.05);
+    transition: all 0.2s;
+}
+
 .project-tile {
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.75);
@@ -94,6 +104,16 @@ h6 {
     margin: 12px;
     border-radius: 15px;
     box-shadow: 0 2px 5px darkgrey;
+}
+
+.project-tile:hover {
+    transform: scale(1.05);
+    transition: all 0.2s;
+}
+
+.project-tile:focus {
+    transform: scale(1.05);
+    transition: all 0.2s;
 }
 
 /* Button styles */
@@ -126,4 +146,27 @@ textarea {
 
 img {
     margin: 8px;
+}
+
+.back-btn {
+    color: white;
+    background: #000000;
+    border-radius: 100%;
+    border: none;
+    margin: 20px 0;
+    padding: 10px 16px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: middle;
+    transition: all 0.2s;
+}
+
+.back-btn:hover {
+    transform: scale(1.03);
+    transition: all 0.2s;
+    background: white;
+    color: black;
+    text-decoration: none;
 }
