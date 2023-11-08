@@ -138,14 +138,13 @@ h6 {
 }
 
 .btn-primary:hover {
-    background: #4fbdd2;
+    background: #5fe7ff;
     color: black;
     text-decoration: none;
 }
 
 /* Link styles */
 a {
-    color: #4fbdd2;
     text-decoration: none;
 }
 
