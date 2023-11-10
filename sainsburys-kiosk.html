@@ -93,8 +93,7 @@
     <div class="my-4 px-5">
         <h5>User Journey</h5>
 
-        <p>This flowchart highlights the pivotal steps in the user journey when engaging with a self-checkout
-            system.
+        <p>Using FigJam, I highlighted the pivotal steps in the user journey when engaging with a self-checkout system.
         </p>
 
         <img src="images/sainsburys-kiosk/sainsburys-user-journey.png" width="100%">
@@ -113,6 +112,13 @@
                 incorporating it into the
                 user's basket and recalculating the total basket value.
             </p>
+            <br>
+            <h6>Unhappy Paths and Error States</h6>
+            <p>It's important not to neglect those scenarios when things go wrong - that's when users get frustrated
+                most and will most
+                likely end their journey. I've mapped those unhappy scenarios such as when an item is not recognised in
+                the bagging area
+                or if a payment gets declined.</p>
         </div>
 
     </div>
@@ -129,9 +135,9 @@
 
     <div class="my-4 px-5">
         <h5>Proposed Design</h5>
-        <p>Here are static prototypes showcasing the initial design state, depicting screens with zero items in the
-            basket
-            and a total cost of £0.
+        <p>The self-checkout kiosk design aims to optimise the user experience by incorporating innovative features for
+            seamless
+            item scanning, manual entry, and efficient basket management.
         </p>
 
         <div class="d-flex justify-content-center">
@@ -221,27 +227,44 @@
         <div class="row justify-content-around mt-2" style="align-items: center;">
             <div class="col-12 col-md-6">
                 <p>
-                    Behind this static representation, the design incorporates variables and
-                    conditionals that
-                    dynamically update the basket totals triggered by user
-                    interactions.
+                    Using variables and conditional interaction, the prototype introduces an auto add/remove
+                    functionality based on item's
+                    quantity and updates the basket totals upon user interaction.
                 </p>
             </div>
 
             <div class="col-12 col-md-6">
                 <p>
-                    Additionally, a conditional feature is implemented that automatically adds the selected product
-                    to
-                    both
-                    shopping
-                    baskets when the item quantity is increased, while simultaneously
-                    removing
-                    the
-                    "No item in
-                    your basket" placeholder.
+                    This creates a more intuitive and responsive checkout process, which results to user satisfaction
+                    and ease of use at the
+                    self-checkout kiosk.
                 </p>
             </div>
         </div>
+
+        <h6 class="font-weight-bold text-decoration-underline">Key Features:</h6>
+        <ol>
+            <li><strong>Auto Add/Remove Functionality:</strong>
+                <ul>
+                    <li>Upon increasing the item quantity, the system intelligently adds the product to both baskets.
+                    </li>
+                    <li>Simultaneously, the system dynamically removes the "No item in your basket" placeholder,
+                        ensuring a visually responsive
+                        and clutter-free interface.
+                    </li>
+                </ul>
+            </li>
+            <li><strong>Manual Barcode Entry:</strong>
+                <ul>
+                    <li>Users have the option to manually enter an item's barcode through a dedicated screen.</li>
+                    <li>This feature caters to scenarios where items might not have a scannable barcode, offering
+                        flexibility in the checkout
+                        process.</li>
+                    <li>Users can also choose from three preset items. To streamline the process for commonly purchased
+                        goods.</li>
+                </ul>
+            </li>
+        </ol>
     </div>
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" width="100%" height="35">
