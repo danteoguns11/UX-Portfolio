@@ -1,6 +1,6 @@
 Typeface:
 ................
-Source Sans Pro 
+Josefin Sans 
 
 Colours:
 ................
@@ -13,3 +13,5 @@ Background light
 Background dark
 #333333
 
+Headings
+#5FE7FF
