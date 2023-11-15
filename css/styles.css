@@ -15,13 +15,11 @@ body {
 
 header {
     background-color: #4fbdd2;
-    padding: 35px 15px;
-    /* background-image: url(../images/background-slated.svg); */
+    padding: 16px;
     background-repeat: no-repeat;
 }
 
 footer {
-    /* border: 0.3rem solid #4fbdd2; */
     padding: 35px 15px;
     text-align: center;
 }
@@ -32,7 +30,6 @@ footer {
 
 /* Section styles */
 .section {
-    /* border-bottom: 0.3rem solid #4fbdd2; */
     padding: 35px 15px;
 }
 
